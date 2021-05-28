@@ -1,2 +1,0 @@
-# coopernico
-Website Coopernico
