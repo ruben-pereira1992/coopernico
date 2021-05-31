@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/t4hd/repositories/coopernico/
+    - /bin/cp -R * $DEPLOYPATH
+    
