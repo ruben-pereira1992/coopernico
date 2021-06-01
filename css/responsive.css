@@ -3,4 +3,11 @@
     #menu-logo{
         max-width:200px;
     }
+
+    #main-slide{
+        background-image: url("../assets/slides/ilustracao_coopernico_mobile.jpg");
+        background-size: cover;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+    }
 }

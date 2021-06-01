@@ -20,6 +20,10 @@ function openSearch(){
 }
 
 function openMobile(){
-    
+    $("header")[0].addClass("move-menu");    
+    $("footer")[0].addClass("move-menu");    
+    $("#main-content").addClass("move-menu");    
 }
+
+
 
