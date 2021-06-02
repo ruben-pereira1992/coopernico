@@ -9,5 +9,11 @@
         background-size: cover;
         background-position-y: bottom;
         background-repeat: no-repeat;
+
+    }
+
+    .carousel-item{
+        min-height: 90vh;
+        background-color: white;
     }
 }
