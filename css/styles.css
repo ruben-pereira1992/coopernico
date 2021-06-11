@@ -47,7 +47,7 @@ a,p,h1,h2,h3,h4,h5,h6{
 }
 
 footer{
-    background-color: var(--lightgreen);
+    background-color: var(--darkgreen);
     padding: 50px 0 !important;
 }
 
@@ -116,15 +116,6 @@ footer{
     color: var(--lightgreen);
 }
 
-
-.newsletter-form{
-    background-color: white;
-    max-width: 350px;
-    padding:2%;
-    border-radius: 100px;
-    display: flex;
-}
-
 .newsletter-form input{
     min-width: 66% !important;
     border:none;
@@ -143,4 +134,29 @@ footer{
 
 .carousel-control-next {
     right: -35px !important;
+}
+
+.newsletter-btn, .form-input{
+    background-color: transparent;
+    border-radius:50px;
+    width: 100%;
+    border:solid 2px var(--lightgreen) !important;
+    color: var(--lightgreen) !important;
+    margin: 10px auto;
+}
+
+.section-label{
+    background-color: var(--darkgreen);
+    width: min-content;
+    padding: 5px 30px;
+    position: relative;
+    top:-20px;
+}
+
+.bg-lightgreen{
+    background-color: var(--lightgreen);
+}
+
+.bg-yellowgreen{
+    background-color: var(--yellowgreen);
 }
