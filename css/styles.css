@@ -54,21 +54,25 @@ footer{
 footer ::-webkit-input-placeholder {
     text-align: center;
     font-size:18px;
+    color:var(--lightgreen);
  }
  
  footer :-moz-placeholder { /* Firefox 18- */
     text-align: center;  
     font-size:18px;
+    color:var(--lightgreen);
  }
  
  footer ::-moz-placeholder {  /* Firefox 19+ */
     text-align: center; 
     font-size:18px; 
+    color:var(--lightgreen);
  }
  
  footer :-ms-input-placeholder {  
     text-align: center; 
     font-size:18px;
+    color:var(--lightgreen);
  }
 
  footer p{
@@ -83,6 +87,7 @@ footer ::-webkit-input-placeholder {
 
 footer input{
     padding: 10px;
+    text-align: center;
 }
 
 
@@ -152,14 +157,8 @@ footer input{
     color: var(--lightgreen);
 }
 
-.newsletter-form input{
-    border:none;
-    padding-left:2%;
-}
 
-.newsletter-form button{
-    padding:10px;
-}
+
 
 .carousel-control-prev {
     left: -35px !important;
@@ -169,13 +168,18 @@ footer input{
     right: -35px !important;
 }
 
-.newsletter-btn, .form-input{
+.form-input{
     background-color: transparent;
     border-radius:50px;
     width: 100%;
     border:solid 2px var(--lightgreen) !important;
-    color: var(--lightgreen) !important;
+    color: var(--darkgreen);
     margin: 10px auto;
+}
+
+footer button{
+    width: 100%;
+    
 }
 
 .section-label{
@@ -183,8 +187,9 @@ footer input{
     width: min-content;
     padding: 5px 30px;
     position: relative;
-    top:-20px;
+    top:-25px;
     border-radius: 50px;
+    width: max-content;
 }
 
 .bg-lightgreen{
@@ -205,6 +210,7 @@ footer input{
     border-radius: 50px;
     min-height: 200px;
     height: 100%;
+    margin-bottom: 20px;
 }
 
 .coop-card-icon {
@@ -214,3 +220,10 @@ footer input{
     top: 50px;
 }
 
+img{
+    max-width: 100%;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
