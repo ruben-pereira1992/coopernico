@@ -13,21 +13,52 @@
     src: url("../assets/font/main-font.otf") format("opentype");
 }
 
-html{
-    font-family: 'Main', sans-serif !important;
-    font-weight: 600 ;
-    font-size:18px;
+
+@font-face {
+    font-family: "Thin";
+    src: url("../assets/font/thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Light";
+    src: url("../assets/font/light.otf") format("opentype");
+}
+
+.main-font{
+    font-family: 'Main', sans-serif;
     letter-spacing: 1px;
 }
+
+.thin-font{
+    font-family: 'Thin', sans-serif;
+    letter-spacing: 1px;
+}
+
+.light-font{
+    font-family: 'Light', sans-serif;
+    letter-spacing: 1px;
+}
+
+html{
+    font-size:18px;
+    font-family: 'Thin', sans-serif;
+
+}
+
 
 .lightyellow-text{
     color: var(--lightyellow);
 }
 
-a,p,h1,h2,h3,h4,h5,h6{
-    font-family: 'Main', sans-serif !important;
+h1, h2, .section-label{
+    font-family: 'Main', sans-serif;
 
 }
+p, h3{
+    font-family: 'Thin', sans-serif;
+}
+
+
 #menu-logo{
     max-width:500px;
 }
@@ -36,11 +67,13 @@ a,p,h1,h2,h3,h4,h5,h6{
 }
 
 #preheader{
+    font-family: 'Main', sans-serif;
     background-color: var(--yellowgreen);
     font-size: 0.77rem;
 }
 
 #mainheader{
+    font-family: 'Main', sans-serif ;
     background-color: white;
     font-size: 0.9rem;
 
@@ -81,8 +114,10 @@ footer ::-webkit-input-placeholder {
  }
 
  footer h4{
-    color:var(--lightgreen);
-    font-weight: 100;
+    color:var(--yellowgreen);
+    font-family: "Light";
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
 }
 
 footer input{
@@ -206,11 +241,18 @@ footer button{
 
 .coop-card{
     background-color:white;
-    padding: 30px;
+    padding: 50px;
     border-radius: 50px;
     min-height: 200px;
     height: 100%;
     margin-bottom: 20px;
+}
+
+.coop-card-title{
+    font-size: 4rem;
+    font-family: "Main";
+    color: var(--lightgreen);
+    text-transform: uppercase;
 }
 
 .coop-card-icon {
