@@ -45,6 +45,15 @@ html{
 
 }
 
+.bold-text{
+    color: var(--lightgreen);
+    font-family: "Main";
+}
+
+.img-radius{
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px #2c615047;
+}
 
 .lightyellow-text{
     color: var(--lightyellow);
@@ -58,6 +67,29 @@ p, h3{
     font-family: 'Thin', sans-serif;
 }
 
+p{
+    color:var(--darkgreen);
+}
+
+a:link {
+    color: inherit;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: inherit;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: var(--darkgreen);
+  }
+  
+  /* selected link */
+  a:active {
+    color:var(--darkgreen);
+  }
+
 
 #menu-logo{
     max-width:500px;
@@ -68,8 +100,6 @@ p, h3{
 
 #preheader{
     font-family: 'Main', sans-serif;
-    background-color: var(--yellowgreen);
-    font-size: 0.77rem;
 }
 
 #mainheader{
@@ -77,6 +107,20 @@ p, h3{
     background-color: white;
     font-size: 0.9rem;
 
+}
+
+.dropdown-content{
+    position:absolute;
+    visibility: hidden;
+    background-color: var(--lightgreen);
+    display: grid;
+    padding: 0.5rem;
+    z-index: 9999;
+    border-radius: 0 0 10px 10px;
+}
+
+.nav-item:hover .dropdown-content{
+    visibility: visible;
 }
 
 footer{
@@ -182,8 +226,10 @@ footer input{
     font-weight: 600;
     transition: 0.33s ease-in-out;
     border: solid 3px var(--lightgreen);
-    padding: 5px 40px;
+    padding: 5px 30px;
     color: var(--darkgreen);
+    font-family: "Main";
+    font-size: 1.33rem;
 
 }
 
@@ -208,7 +254,7 @@ footer input{
     border-radius:50px;
     width: 100%;
     border:solid 2px var(--lightgreen) !important;
-    color: var(--darkgreen);
+    color: var(--lightgreen);
     margin: 10px auto;
 }
 
@@ -246,6 +292,10 @@ footer button{
     min-height: 200px;
     height: 100%;
     margin-bottom: 20px;
+    box-shadow: 1px 1px 5px #2c615047;
+    display: flex;
+    flex-flow: wrap;
+    align-content: space-between;
 }
 
 .coop-card-title{
@@ -253,6 +303,10 @@ footer button{
     font-family: "Main";
     color: var(--lightgreen);
     text-transform: uppercase;
+}
+
+.coop-card-description{
+    color:var(--darkgreen);
 }
 
 .coop-card-icon {
