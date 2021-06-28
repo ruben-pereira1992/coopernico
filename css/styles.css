@@ -316,7 +316,7 @@ footer button{
     transition: all 1s;
     background-color:white;
     padding: 30px;
-    border-radius: 50px;
+    border-radius: 50px ;
     min-height: 200px;
     height: 100%;
     margin-bottom: 20px;
