@@ -21,25 +21,7 @@
         </div>
         <header>
             <!-- Menu Superior-->
-            <div class="d-none d-lg-block">     
-                <nav class="navbar navbar-dark navbar-expand-lg" id="preheader">
-                    <div class="container justify-content-end">
-                        <ul class="navbar-nav align-items-center">
-                            <li class="nav-item"><a href="#" class="nav-link">+info</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">contactos</a></li>
-                            <li class="nav-item" ><a href="#" class="nav-link" data-placement="bottom" data-toggle="popover" data-content="Área de Cliente" data-trigger="hover"> <img src="assets/login-icon.png" alt="login" id="login-icon"></a></li>
-                            <li class="nav-item" >
-                                <a href="#" class="nav-link" data-placement="bottom" data-toggle="popover" data-content="Pesquisa" data-trigger="hover">
-                                    <div class="input-group">
-                                        <input class="form-control border-end-0 border rounded-pill" type="search" value="Pesquisa" id="search-input">
-                                        <span class="input-group-append position-absolute end-0"><i class="fa fa-search" id="menu-search-icon"></i></span>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+        
             <!-- Menu Inferior-->
             <div class="shadow-sm">
                 <nav class="navbar navbar-dark navbar-expand-lg justify-content-between container py-0" id="mainheader">
@@ -58,13 +40,19 @@
                             <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">TORNE-SE MEMBRO</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">ADERIR</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">+INFO</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">CONTACTOS</a></li>
+                            <li class="nav-item" ><a href="#" class="nav-link" data-placement="bottom" data-toggle="popover" data-content="Área de Cliente" data-trigger="hover"> <img src="assets/login-icon.png" alt="login" id="login-icon"></a></li>
+                            <li class="nav-item" >
+                                        <span class="input-group-append position-absolute end-0"><i class="fa fa-search" id="menu-search-icon"></i></span>
+                            </li>
                         </ul>
                     </div>
                 </nav>
             </div>
         </header>
  
-        
+
         <!-- Conteudo -->
         <div class="min-vh-100" id="main-content">
 
@@ -73,8 +61,9 @@
                   <div class="carousel-item active d-flex align-items-end justify-content-center " id="main-slide">
                     <div class="container">
                         <div class="row">
+                            <div class="col-1"></div>
                             <div class="col-md p-3">
-                                <h2 class="text-white display-4">Somos donos <br>da nossa <span class="lightyellow-text">energia</span></h2>
+                                <h2 class="text-white display-5">Somos donos <br>da nossa <span class="lightyellow-text">energia</span></h2>
                                 <h3 class="text-white "><small class="fs-5">Faça parte da primeira cooperativa de energias renováveis em portugal a comercializar electricidade para todo o país.</small></h3>
                                 <div class="mt-3 mb-3"></div>
 
@@ -102,31 +91,40 @@
                     <h3 class="section-label bg-lightgreen text-white display-6">Envolvimento</h3>
                     <div class="row pb-5">
                         <div class="col-md">
-                            <div class="coop-card">
-                                <h3 class="coop-card-title">Participar</h3>
-                                <p class="coop-card-description">Faça parte de um grupo local da Coopérnico.
-                                    Contribua para dar a conhecer a nossa Cooperativa em todo o país e identificar
-                                     novas oportunidades de projetos, áreas de atuação ou tecnologias em que investir.</p>
-                                <button type="button" class="coop-btn  text-center ">Participe</button>
+                            <div class="coop-card-container">
+                                <div class="coop-card">
+                                    <h3 class="coop-card-title">Participar</h3>
+                                    <p class="coop-card-description">Faça parte de um grupo local da Coopérnico.
+                                        Contribua para dar a conhecer a nossa Cooperativa em todo o país e identificar
+                                        novas oportunidades de projetos, áreas de atuação ou tecnologias em que investir.</p>
+                                    <button type="button" class="coop-btn  text-center ">Participe</button>
+                                    <img class="coop-card-icon" src="assets/icons/1_folha.png">
+                                </div>
                             </div>
                         </div>     
 
                         <div class="col-md">
-                            <div class="coop-card">
-                                <h3 class="coop-card-title">Aderir</h3>
-                                <p class="coop-card-description">Contribua para o aumento da produção de energia renovável descentralizada 
-                                    em Portugal. O investimento nos nossos projetos de energia renovável garante 
-                                    retorno financeiro, benefícios ambientais e sociais.</p>
-                                    <p>Para investir tem de ser cooperador.</p>
-                                <button type="button" class="coop-btn  text-center ">Participe</button>
+                            <div class="coop-card-container">
+                                <div class="coop-card">
+                                    <h3 class="coop-card-title">Aderir</h3>
+                                    <p class="coop-card-description">Contribua para o aumento da produção de energia renovável descentralizada 
+                                        em Portugal. O investimento nos nossos projetos de energia renovável garante 
+                                        retorno financeiro, benefícios ambientais e sociais.</p>
+                                        <p class="coop-card-description">Para investir tem de ser cooperador.</p>
+                                    <button type="button" class="coop-btn  text-center ">Participe</button>
+                                    <img class="coop-card-icon" src="assets/icons/5_lampada.png">
+                                </div>
                             </div>
                         </div>
                
                         <div class="col-md">
-                            <div class="coop-card">
-                                <h3 class="coop-card-title">Investir</h3>
-                                <p class="coop-card-description">descrição</p>
-                                <button type="button" class="coop-btn  text-center ">Participe</button>
+                            <div class="coop-card-container">
+                                <div class="coop-card">
+                                    <h3 class="coop-card-title">Investir</h3>
+                                    <p class="coop-card-description">descrição</p>
+                                    <button type="button" class="coop-btn  text-center ">Participe</button>
+                                    <img class="coop-card-icon" src="assets/icons/2_mundocomsetas.png">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -184,6 +182,24 @@
                     </div>
                 </div>
             </div>
+            <div class="bg-darkgreen">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <h3 class="lightgreen-text">Já somos</h3>
+                            <h3>2168</h3>
+                        </div> 
+                        <div class="col-md">
+                            <h3>Já somos</h3>
+                            <h3>2168</h3>                            
+                         </div>           
+                         <div class="col-md">
+                            <h3>Já somos</h3>
+                            <h3>2168</h3>
+                        </div>                   
+                    </div>
+                </div>
+            </div>
             <div class="mt-5 mb-5"></div>
             <div class="">
                 <div class="container">
@@ -200,14 +216,12 @@
                             <div class="coop-card">
                                 <h3 class="coop-card-title">titulo</h3>
                                 <p>descrição</p>
-                                <img src="assets/icons/icon.png" alt="" class="coop-card-icon">
                             </div>
                         </div>                    
                         <div class="col-md">
                             <div class="coop-card">
                                 <h3 class="coop-card-title">titulo</h3>
                                 <p>descrição</p>
-                                <img src="assets/icons/icon.png" alt="" class="coop-card-icon">
                             </div>
                         </div>
                     </div>
@@ -221,8 +235,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md">
-                        <a class="navbar-brand" href="#"><img src="assets/logo_coopernico_vertical.png" alt="LOGO" ></a>
-
+                        <h4>DESTAQUES</h4>         
+                        <a><i class="fas fa-user-friends"></i><p>Torne-se Membro</p></a>
+                        <a><i class="fas fa-user-friends"></i><p>Contrate Electricidade</p></a>
+                        <a><i class="fas fa-user-friends"></i><p>Gerir dados pessoais</p></a>
+                        <a><i class="fas fa-user-friends"></i><p>Gestão de contratos e faturas</p></a>      
                     </div>
                     <div class="col-md">
                         <h4>DESTAQUES</h4>         
@@ -240,7 +257,7 @@
                             (+351) 969 806 229<br>
                             coopernico@coopernico.org</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md">
                         <h4>QUERO RECEBER NOTÍCIAS</h4>
                         <div class="mt-3 mb-3"></div>
                         <form action="/subscrever" class="newsletter-form" target="_blank">
