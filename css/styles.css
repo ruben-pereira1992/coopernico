@@ -310,7 +310,7 @@ footer button{
 .coop-card:hover{
     box-shadow: 2px 2px 2px rgb(177, 177, 177);
     transform:scale(1.05);
-}
+} 
 
 .coop-card{
     transition: all 1s;
