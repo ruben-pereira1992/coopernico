@@ -298,7 +298,6 @@ footer button{
     background-color: var(--lightyellow);
 }
 
-<<<<<<< Updated upstream
 .bg-darkgreen{
     background-color: var(--darkgreen);
 }
@@ -313,11 +312,6 @@ footer button{
     transform:scale(1.05);
 } 
 
-=======
-.coop-card-container{
-    padding-bottom:20px;
-}
->>>>>>> Stashed changes
 .coop-card{
     transition: all 1s;
     background-color:white;
