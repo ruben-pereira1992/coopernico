@@ -319,6 +319,15 @@ footer button{
     width: 100px;
 }
 
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.33);
+    position: absolute;
+    margin: -30px;
+    border-radius: 10px;
+}
+
 .coop-card{
     transition: all 1s;
     background-color:white;
@@ -335,11 +344,12 @@ footer button{
 
 .coop-card.news{
     background-size: cover;
-    background-image: url("assets/slides/photo-1452179535021-368bb0edc3a8.jpeg");
     border-radius: 10px;
 }
 
-
+.news-carousel .news{
+    margin:10px;
+}
 .coop-card-title{
     font-size: 3.5rem;
     font-family: "Main";
@@ -352,8 +362,9 @@ footer button{
     font-family: "Thin";
     color:var(--darkgreen);
     font-weight: 600;
-
 }
+
+
 
 .coop-card .coop-btn{
     position: absolute;
