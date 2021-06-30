@@ -1,8 +1,8 @@
 
 :root {
-    --darkgreen: #2c6150;
-    --lightgreen: #c5daa2;
-    --yellowgreen: #f0f9dc;
+    --darkgreen: #2d604e;
+    --lightgreen: #c5dd90;
+    --yellowgreen: #f5ffd7;
     --lightyellow: #fae782;
 }
 
@@ -129,6 +129,7 @@ a:active {
 }
 
 footer{
+    font-size: 1rem;
     background-color: var(--darkgreen);
     padding: 50px 0 !important;
 }
@@ -238,7 +239,7 @@ footer input{
     font-weight: 600;
     transition: 0.33s ease-in-out;
     border: solid 3px var(--lightgreen);
-    padding: 5px 30px;
+    padding: 0.33rem 1.1rem;
     color: var(--darkgreen);
     font-family: "Main";
     font-size: 1.33rem;
@@ -322,16 +323,16 @@ footer button{
 .overlay{
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.33);
+    background-color: rgba(0,0,0,0.20);
     position: absolute;
-    margin: -30px;
+    margin: -25px;
     border-radius: 10px;
 }
 
 .coop-card{
     transition: all 1s;
     background-color:white;
-    padding: 30px;
+    padding: 25px;
     border-radius: 50px ;
     min-height: 200px;
     height: 100%;
@@ -351,11 +352,10 @@ footer button{
     margin:10px;
 }
 .coop-card-title{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-family: "Main";
     color: var(--lightgreen) ;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px #999999;
 }
 
 .coop-card-description{
@@ -364,11 +364,14 @@ footer button{
     font-weight: 600;
 }
 
+.coop-card.news p,.coop-card.news .coop-card-title{
+    transform: translateZ(1px);
 
+}
 
 .coop-card .coop-btn{
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
 }
 
 .coop-card-icon {

@@ -138,15 +138,15 @@
                     <h3 class="section-label bg-lightgreen text-white display-6">Quem Somos</h3>
                     <div class="row pb-5" >
                         <div class="col-md  align-self-center">
-                            <p>A <span class="bold-text">Coopérnico</span> foi fundada por um grupo de 16 cidadãos vindos
+                            <p class="coop-card-description ">A <span class="bold-text">Coopérnico</span> foi fundada por um grupo de 16 cidadãos vindos
                              de diferentes áreas profissionais e com diferentes backgrounds,
                              mas que partilham uma preocupação comum: <br>
                              o desenvolvimento sustentável!</p>
                                 <br>
-                             <p>Desde então, muitos mais cidadãos se juntaram à Coopérnico
+                             <p  class="coop-card-description ">Desde então, muitos mais cidadãos se juntaram à Coopérnico
                              e participam nas nossas atividades e na gestão da cooperativa.</p>
                                 <br>
-                             <p>Conheça a composição atual dos<br>
+                             <p  class="coop-card-description ">Conheça a composição atual dos<br>
                              <span class="bold-text">Órgãos Sociais</span> e os <span class="bold-text">Estatutos da Coopérnico</span>
                              </p>
                              <button type="button" class="coop-btn  text-center ">Saiba Mais</button><br>
@@ -167,15 +167,15 @@
                            <img src="assets/slides/photo-1452179535021-368bb0edc3a8.jpeg" alt="" class=" img-radius">
                         </div> 
                         <div class="col-md   align-self-center">
-                            <p>A <span class="bold-text">Coopérnico</span> foi fundada por um grupo de 16 cidadãos vindos
-                             de diferentes áreas prossionais e com diferentes backgrounds,
+                            <p  class="coop-card-description ">A <span class="bold-text">Coopérnico</span> foi fundada por um grupo de 16 cidadãos vindos
+                             de diferentes áreas profíssionais e com diferentes backgrounds,
                              mas que partilham uma preocupação comum: <br>
                              o desenvolvimento sustentável!</p>
                                 <br>
-                             <p>Desde então, muitos mais cidadãos se juntaram à Coopérnico
+                             <p class="coop-card-description ">Desde então, muitos mais cidadãos se juntaram à Coopérnico
                              e participam nas nossas atividades e na gestão da cooperativa.</p>
                                 <br>
-                             <p>Conheça a composição atual dos<br>
+                             <p class="coop-card-description ">Conheça a composição atual dos<br>
                              <span class="bold-text">Órgãos Sociais</span> e os <span class="bold-text">Estatutos da Coopérnico</span>
                              </p>
                              <button type="button" class="coop-btn  text-center ">Saiba Mais</button><br>
@@ -219,11 +219,11 @@
                 <div class="container">
                     <h3 class="section-label bg-lightgreen text-white display-6">Notícias</h3>
                     <div class="row pb-5 ">
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <h3 class="coop-card-title display-6">Saiba o que de novo aconteceu</h3>
                             <p class="coop-card-description">Mantenha-se informado das novidades e saiba em que novos projetos fazemos parte.</p>
                         </div>
-                        <div class="col-8 news-carousel">
+                        <div class="col-md-8 news-carousel">
                             <div class="coop-card news" style="background-image: url('assets/slides/photo-1451847251646-8a6c0dd1510c.jpeg');">
                                 <div class="overlay"></div>
                                 <h3 class="coop-card-title display-6">Notícia 1</h3>
@@ -304,7 +304,16 @@
                     centerMode: true,
                     infinite: true,
                     prevArrow: false,
-                    nextArrow: false                    
+                    nextArrow: false,
+                    responsive: [
+                        {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true                        }
+                        }
+                    ]                    
                 });
             });
         </script>
