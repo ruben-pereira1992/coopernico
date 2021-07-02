@@ -45,7 +45,6 @@
 html{
     font-size:18px;
     font-family: 'Thin', sans-serif;
-
 }
 
 
@@ -255,11 +254,12 @@ footer input{
 
 
 .carousel-control-prev {
-    left: -35px !important;
+    width:20%;
+
 }
 
 .carousel-control-next {
-    right: -35px !important;
+    width:20%;
 }
 
 .form-input{
@@ -301,6 +301,28 @@ footer button{
 
 .bg-darkgreen{
     background-color: var(--darkgreen);
+}
+
+#popup-lamp{
+    position:fixed;
+    background-color: var(--lightyellow);
+    width: 90px;
+    height:90px;
+    z-index: 10;
+    background-image: url("../assets/icons/5_lampada.png");
+    background-size: contain;
+    background-position-x: 5px;
+    border-radius:100%;
+    bottom: 5vh;
+    right: 2vh;
+    box-shadow: 0px 0px 3px rgb(104, 104, 104);
+    transition: all 0.5s ease-in-out;
+}
+
+#popup-lamp:hover{
+    transform:scale(1.1);
+    box-shadow: 0px 0px 3px rgb(173, 173, 173);
+
 }
 
 .coop-card-container{
@@ -376,7 +398,7 @@ footer button{
 .coop-card-icon {
     width: 100px;
     position: absolute;
-    right: -25px;
+    right: -15px;
     bottom: -25px;
 }
 
