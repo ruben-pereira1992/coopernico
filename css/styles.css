@@ -310,7 +310,6 @@ footer button{
 
 .coop-card:hover{
     box-shadow: 2px 2px 2px rgb(177, 177, 177);
-    transform:scale(1.03);
     -webkit-font-smoothing: subpixel-antialiased;
     backface-visibility: hidden;
 
