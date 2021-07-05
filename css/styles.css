@@ -1,5 +1,6 @@
 
 :root {
+    --newgreen: #8ec045;
     --darkgreen: #2d604e;
     --lightgreen: #c5dd90;
     --yellowgreen: #f5ffd7;
@@ -128,7 +129,8 @@ a:active {
 }
 
 footer{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
     background-color: var(--darkgreen);
     padding: 50px 0 !important;
 }
@@ -233,11 +235,11 @@ footer input{
 
 .coop-btn{
     border-radius: 50px;
-    background-color: var(--lightgreen);
+    background-color: var(--newgreen);
     border:0;
     font-weight: 600;
     transition: 0.33s ease-in-out;
-    border: solid 3px var(--lightgreen);
+    border: solid 3px var(--newgreen);
     padding: 0.33rem 1.1rem;
     color: var(--darkgreen);
     font-family: "Main";
@@ -247,7 +249,7 @@ footer input{
 
 .coop-btn:hover{
     background-color: transparent !important;
-    color: var(--lightgreen);
+    color: var(--newgreen);
 }
 
 
@@ -277,14 +279,15 @@ footer button{
 }
 
 .section-label{
-    background-color: var(--darkgreen);
+    background-color: var(--newgreen);
     width: min-content;
     padding: 5px 30px;
     position: relative;
     top:-25px;
     border-radius: 50px;
     width: max-content;
-    box-shadow: 1px 1px 1px rgb(126, 126, 126);
+    letter-spacing: 3px;
+    font-size: 2rem;
 }
 
 .bg-lightgreen{
@@ -303,15 +306,19 @@ footer button{
     background-color: var(--darkgreen);
 }
 
+.bg-newgreen{
+    background-color: var(--newgreen);
+}
+
 #popup-lamp{
     position:fixed;
     background-color: var(--lightyellow);
-    width: 90px;
-    height:90px;
+    width: 70px;
+    height:70px;
     z-index: 10;
     background-image: url("../assets/icons/5_lampada.png");
     background-size: contain;
-    background-position-x: 5px;
+    background-position-x: 2px;
     border-radius:100%;
     bottom: 5vh;
     right: 2vh;
@@ -322,46 +329,54 @@ footer button{
 #popup-lamp-btn1{
     position:relative;
     background-color: var(--lightyellow);
-    width: 80px;
-    height:80px;
+    width: 60px;
+    height:60px;
     z-index: 10;
     background-image: url("../assets/icons/5_lampada.png");
     background-size: contain;
-    background-position-x: 5px;
+    background-position-x: 2px;
     border-radius:100%;
-    right: 100px;
+    right: 70px;
     bottom:-5px;
     box-shadow: 0px 0px 3px rgb(104, 104, 104);
     transition: all 0.5s ease-in-out;
-    display: none;
+    opacity: 0;
+    transition-delay: 0.33s;
+
 }
 
 #popup-lamp-btn2{
     position:relative;
     background-color: var(--lightyellow);
-    width: 80px;
-    height:80px;
+    width: 60px;
+    height:60px;
     z-index: 10;
     background-image: url("../assets/icons/5_lampada.png");
     background-size: contain;
-    background-position-x: 5px;
+    background-position-x: 2px;
     border-radius:100%;
     right: -5px;
-    bottom:180px;
+    bottom:130px;
     box-shadow: 0px 0px 3px rgb(104, 104, 104);
     transition: all 0.5s ease-in-out;
-    display: none;
+    opacity: 0;
 }
-#popup-lamp-hover div{
-    display: initial !important;
+#popup-lamp:hover div{
+    opacity: 1 !important;
 }
+
 #popup-lamp:hover{
     box-shadow: 0px 0px 3px rgb(173, 173, 173);
 
 }
 
+@keyframes btn2 {
+    0%   {opacity: 1;}
+    50%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
 .coop-card-container{
-    height:95%;    
     margin-bottom: 20px;
 }
 
@@ -371,18 +386,35 @@ footer button{
     backface-visibility: hidden;
 
 } 
-
+.counter{
+    background-color: var(--newgreen);
+}
 .counter img{
     width: 100px;
 }
+.counter h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: left;
+    color: var(--darkgreen);
+    font-family: "Main";
+
+}
+
+.counter p{
+    font-family: "Main";
+    font-size: 3rem;
+    text-align: left;
+
+}
 
 .overlay{
-    height: 100%;
+    height: 250px;
     width: 100%;
-    background-color: rgba(0,0,0,0.20);
-    position: absolute;
-    margin: -25px;
-    border-radius: 10px;
+    background-color: rgba(12, 11, 11, 0.2);
+    border-radius: 10px 10px 0 0;
+    background-position: center;
+    background-size: cover;
 }
 
 .coop-card{
@@ -390,28 +422,43 @@ footer button{
     background-color:white;
     padding: 25px;
     border-radius: 50px ;
-    min-height: 200px;
-    height: 100%;
     margin-bottom: 20px;
-    padding-bottom:120px;
     box-shadow: 1px 1px 5px #2c615047;
     position: relative;
     height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coop-card-footer{
+    padding:1rem
 }
 
 .coop-card.news{
     background-size: cover;
     border-radius: 10px;
+    background-position: center;
+    background-color: var(--lightgreen);
+    padding: 0;
+
+}
+
+.news-body{
+    padding: 1rem;
 }
 
 .news-carousel .news{
     margin:10px;
 }
+
+
 .coop-card-title{
     font-size: 2.5rem;
     font-family: "Main";
     color: var(--lightgreen) ;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .coop-card-description{
@@ -426,8 +473,9 @@ footer button{
 }
 
 .coop-card .coop-btn{
-    position: absolute;
-    bottom: 40px;
+    width: max-content;
+    width: fit-content;
+    transform: translateZ(1px);
 }
 
 .coop-card-icon {
@@ -435,6 +483,24 @@ footer button{
     position: absolute;
     right: -15px;
     bottom: -25px;
+}
+
+.inline-list{
+    margin-top: 50px !important;
+    color:white;
+    font-family: "Light";
+    font-size: 0.9rem;
+}
+.inline-list li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.separator{
+    margin-top: 40px;
+    height: 1px;
+    background-color: white;
+    width: 100%;
 }
 
 img{
@@ -446,11 +512,10 @@ textarea:focus, input:focus{
 }
 
 .underline{
-    width: 60px;
+    width: 40px;
     background: rgba(255, 255, 255, 0.8);
     height: 3px;
     display: block;
-    margin: 0 auto;
-    margin-top:-20px;
-    margin-bottom:20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
 }
