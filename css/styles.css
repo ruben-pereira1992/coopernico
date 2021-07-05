@@ -226,7 +226,7 @@ footer input{
 }
 
 #main-slide{
-    background-image: url("../assets/slides/ilustracao_coopernico.jpg");
+    background-image: url("../assets/img/ilustracao_coopernico-com-caras.png");
     background-size: cover;
     background-position-y: bottom;
     background-position-x: left;
@@ -244,12 +244,29 @@ footer input{
     color: var(--darkgreen);
     font-family: "Main";
     font-size: 1.33rem;
+}
 
+.coop-btn-alt{
+    border-radius: 50px;
+    background-color: var(--darkgreen);
+    border:0;
+    font-weight: 600;
+    transition: 0.33s ease-in-out;
+    border: solid 3px var(--darkgreen);
+    padding: 0.33rem 1.1rem;
+    color: var(--newgreen);
+    font-family: "Main";
+    font-size: 1.33rem;
 }
 
 .coop-btn:hover{
     background-color: transparent !important;
     color: var(--newgreen);
+}
+
+.coop-btn-alt:hover{
+    background-color: transparent !important;
+    color: var(--darkgreen);
 }
 
 
