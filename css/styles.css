@@ -559,7 +559,7 @@ textarea:focus, input:focus{
 
 .news-date{
     position: relative;
-    top: 215px;
+    top: 25vh;
     left: 15px;
 }
 .news-date p{
