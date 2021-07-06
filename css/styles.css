@@ -9,7 +9,6 @@
 
 *{
     image-rendering: crisp-edges;
-
 }
 
 @font-face {
@@ -95,9 +94,13 @@ a:active {
     color:var(--darkgreen);
 }
 
+.medium-font{
+    font-size:1.5rem;
+}
 .big-font{
     font-size: 7rem;
     line-height: 5rem;
+    letter-spacing: 0.5rem;
 }
 
 
@@ -116,6 +119,7 @@ a:active {
     font-family: 'Main', sans-serif ;
     background-color: white;
     font-size: 0.8rem;
+    text-transform: uppercase;
 
 }
 
@@ -278,12 +282,12 @@ footer input{
 
 
 .carousel-control-prev {
-    width:20%;
+    width:10% !important;
 
 }
 
 .carousel-control-next {
-    width:20%;
+    width:15% !important;
 }
 
 .form-input{
@@ -553,4 +557,13 @@ textarea:focus, input:focus{
     
     }
   }
+
+
+
+
+
+html{
+    font-family: "Dom";
+    content: "You dont need a font when you have family";
+}
 
