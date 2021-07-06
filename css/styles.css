@@ -437,7 +437,7 @@ footer button{
 }
 
 .overlay{
-    height: 250px;
+    height: 30vh;
     width: 100%;
     background-color: rgba(12, 11, 11, 0.2);
     border-radius: 10px 10px 0 0;
@@ -463,6 +463,9 @@ footer button{
     border-radius: 10px;
     padding: 0px;
     margin:10px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .coop-card.news button{
     margin: 0 0px 20px 20px;
@@ -472,6 +475,7 @@ footer button{
 .coop-card.news .coop-card-description
 {
     padding: 20px;
+    font-size: 0.8rem;
 }
 .coop-card-footer{
     padding:1rem
