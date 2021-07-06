@@ -236,10 +236,11 @@ footer input{
 
 #main-slide{
     background-image: url("../assets/img/ilustracao_coopernico-com-caras.png");
-    background-size: cover;
+    background-size: contain;
     background-position-y: bottom;
     background-position-x: left;
     background-repeat: no-repeat;
+    min-height: 80vh;
 }
 
 .coop-btn{
