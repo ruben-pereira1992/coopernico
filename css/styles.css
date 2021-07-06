@@ -95,9 +95,14 @@ a:active {
     color:var(--darkgreen);
 }
 
+.big-font{
+    font-size: 7rem;
+    line-height: 5rem;
+}
+
 
 #menu-logo{
-    max-width:400px;
+    max-width:20rem;
 }
 #login-icon{
     max-width:35px;
@@ -110,7 +115,7 @@ a:active {
 #mainheader{
     font-family: 'Main', sans-serif ;
     background-color: white;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 
 }
 
@@ -536,3 +541,16 @@ textarea:focus, input:focus{
     margin-top: -20px;
     margin-bottom: 10px;
 }
+
+.news-date{
+    position:relative;
+    bottom:0;
+}
+
+@media only screen and (max-width: 767px) {
+    .reverse-mobile{
+        flex-flow: column-reverse;
+    
+    }
+  }
+
