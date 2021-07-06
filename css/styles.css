@@ -236,7 +236,7 @@ footer input{
 
 #main-slide{
     background-image: url("../assets/img/ilustracao_coopernico-com-caras.png");
-    background-size: contain;
+    background-size: 100%;
     background-position-y: bottom;
     background-position-x: left;
     background-repeat: no-repeat;
