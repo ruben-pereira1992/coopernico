@@ -251,7 +251,7 @@ footer input{
     font-weight: 600;
     transition: 0.33s ease-in-out;
     border: solid 3px var(--newgreen);
-    padding: 0.33rem 1.1rem;
+    padding: 0.4rem 1.1rem 0.33rem 1.1rem;
     color: var(--darkgreen);
     font-family: "Main";
     font-size: 1.33rem;
@@ -264,7 +264,8 @@ footer input{
     font-weight: 600;
     transition: 0.33s ease-in-out;
     border: solid 3px var(--darkgreen);
-    padding: 0.33rem 1.1rem;
+    padding: 0.4rem 1.1rem 0.33rem 1.1rem;
+    letter-spacing:1px;
     color: var(--newgreen);
     font-family: "Main";
     font-size: 1.33rem;
