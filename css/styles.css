@@ -66,6 +66,10 @@ html{
     color: var(--lightgreen);
 }
 
+.darkgreen-text{
+    color: var(--darkgreen) !important;
+}
+
 h1, h2, .section-label{
     font-family: 'Main', sans-serif;
 
@@ -255,6 +259,7 @@ footer input{
     color: var(--darkgreen);
     font-family: "Main";
     font-size: 1.33rem;
+    letter-spacing:1px;
 }
 
 .coop-btn-alt{
@@ -497,6 +502,7 @@ footer button{
     color: var(--lightgreen) ;
     text-transform: uppercase;
     letter-spacing: 2px;
+    line-height:2.5rem;
 }
 
 .coop-card-description{

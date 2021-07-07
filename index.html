@@ -216,10 +216,8 @@
                 <div class="container">
                     <h3 class="section-label text-white">Notícias</h3>
                     <div class="row pb-5 ">
-                        <div class="col-md-4">
-                            <h3 class="coop-card-title display-6">Saiba o que de novo aconteceu</h3>
-                        </div>
-                        <div class="col-md-8 news-carousel">
+                       
+                        <div class="col-md news-carousel">
                             <div class="coop-card news">
                                 <div>
                                     <div class="overlay" style="background-image: url('assets/noticias/reduza_a_sua_fatura_de_eletricidade.jpg');">
@@ -255,6 +253,13 @@
                                     <p class="coop-card-description">Novo cartaz de Junho.</p>
                                 </div>
                                 <button type="button" class="coop-btn  text-center ">Ler Mais</button>
+                            </div>
+                            
+                            <div class="coop-card news">
+                                <div>
+                                    <p class="coop-card-title darkgreen-text p-3">Descubra mais e saiba o que já foi feito.</p>
+                                </div>
+                                <button type="button" class="coop-btn  text-center ">Veja Mais</button>
                             </div>
 
 
@@ -327,7 +332,7 @@
         <script>
             $(document).ready(function(){
                 $('.news-carousel').slick({
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     centerMode: true,
                     infinite: true,
