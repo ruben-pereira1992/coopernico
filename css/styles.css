@@ -315,7 +315,7 @@ footer button{
 .section-label{
     background-color: var(--newgreen);
     width: min-content;
-    padding: 5px 30px;
+    padding: 7px 30px 5px 30px;
     position: relative;
     top:-25px;
     border-radius: 50px;
