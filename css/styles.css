@@ -346,17 +346,15 @@ footer button{
 
 #popup-lamp{
     position:fixed;
-    background-color: var(--lightyellow);
-    width: 70px;
-    height:70px;
+    width: 100px;
+    height:100px;
     z-index: 10;
-    background-image: url("../assets/icons/5_lampada.png");
+    background-image: url("../assets/icons/icon_balao.png");
     background-size: contain;
+    background-repeat: no-repeat;
     background-position-x: 2px;
-    border-radius:100%;
     bottom: 5vh;
-    right: 2vh;
-    box-shadow: 0px 0px 3px rgb(104, 104, 104);
+    right: 5vh;
     transition: all 0.5s ease-in-out;
 }
 
@@ -389,7 +387,7 @@ footer button{
     background-size: contain;
     background-position-x: 2px;
     border-radius:100%;
-    right: -5px;
+    right: -3vh;
     bottom:130px;
     box-shadow: 0px 0px 3px rgb(104, 104, 104);
     transition: all 0.5s ease-in-out;
@@ -400,7 +398,6 @@ footer button{
 }
 
 #popup-lamp:hover{
-    box-shadow: 0px 0px 3px rgb(173, 173, 173);
 
 }
 
