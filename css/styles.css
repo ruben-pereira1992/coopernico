@@ -125,7 +125,6 @@ a:active {
 
 #mainheader{
     font-family: 'Main', sans-serif ;
-    background-color: white;
     font-size: 0.8rem;
     text-transform: uppercase;
 
@@ -206,6 +205,7 @@ footer input{
 #menu-search-icon{
     font-size: 18px;
     padding: 12px;
+    color:#c5daa2;
 }
 
 #mobile-menu-icon{
@@ -279,19 +279,14 @@ footer input{
     font-size: 1.33rem;
 }
 
-.coop-btn:hover{
-    background-color: transparent !important;
-    color: var(--newgreen);
+a:link{
+    text-decoration: none;
 }
 
-.coop-btn-alt:hover{
-    background-color: transparent !important;
-    color: var(--darkgreen);
+a:visited {
+    text-decoration: none;
 }
-
-
-
-
+  
 .carousel-control-prev {
     width:10% !important;
 
@@ -537,7 +532,7 @@ footer button{
 }
 .inline-list li{
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 42px !important;
 }
 
 .separator{
@@ -551,10 +546,15 @@ img{
     max-width: 100%;
 }
 
+
+
 textarea:focus, input:focus{
     outline: none;
 }
-
+nav .social{
+    font-size: 20px;
+    margin: 15px;
+}
 .underline{
     width: 40px;
     background: rgba(255, 255, 255, 0.8);
