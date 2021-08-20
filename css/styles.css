@@ -114,6 +114,8 @@ a:active {
 }
 #login-icon{
     max-width:35px;
+    color: var(--darkgreen)
+
 }
 
 #secondaryheader{
@@ -205,7 +207,7 @@ footer input{
 #menu-search-icon{
     font-size: 18px;
     padding: 12px;
-    color:#c5daa2;
+    color: var(--darkgreen)
 }
 
 #mobile-menu-icon{
@@ -554,6 +556,7 @@ textarea:focus, input:focus{
 nav .social{
     font-size: 20px;
     margin: 15px;
+    color: var(--darkgreen)
 }
 .underline{
     width: 40px;
