@@ -109,7 +109,7 @@ a:active {
     letter-spacing: 0.5rem;
 }
 .menu-btn-alt{
-    border-radius: 25px;
+    border-radius: 50px;
     padding:0px 5px;
 }
 .menu-btn-alt:hover{
@@ -280,6 +280,7 @@ footer input{
     padding: 0.4rem 1.1rem 0.33rem 1.1rem;
     color: var(--darkgreen);
     font-family: "Main";
+    text-align: center;
     font-size: 1.33rem;
     letter-spacing:1px;
 }
@@ -620,4 +621,22 @@ nav .social{
     .slick-slide
     {
         height: inherit !important;
+    }
+
+
+    .modal .modal-content,.modal .modal-body{
+        border-radius:25px;
+    }
+
+    .coop-modal-close{
+        position: absolute;
+    right: 14px;
+    top: 7px;
+    font-family: 'Main';
+    font-size: 22px;
+    cursor: pointer;
+    }
+
+    .hover-right:hover{
+        transform: translateX(10px);
     }

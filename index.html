@@ -33,10 +33,10 @@
                                 <i class="fa fa-ellipsis-v d-lg-none" id="mobile-menu-icon"></i>
                                 <div class="d-none d-lg-block">
                                     <ul class="navbar-nav align-items-center">
-                                        <li class="nav-item"><a href="#" class="nav-link">SUBSCREVER NEWSLETTER</a></li>
+                                        <li class="nav-item" onclick="openModal('popup-newsletter');"><a href="#" class="nav-link" data-toggle="modal" data-target="#popup-newsletter">SUBSCREVER NEWSLETTER</a></li>
                                         <li class="nav-item px-2">|</li>
-                                        <li class="nav-item menu-btn-alt"><a href="#" class="nav-link">LOGIN</a></li>
-                                        <li class="nav-item  menu-btn"><a href="#" class="nav-link">REGISTAR</a></li>
+                                        <li class="nav-item menu-btn-alt"  onclick="openModal('popup-login');"><a href="#" class="nav-link">LOGIN</a></li>
+                                        <li class="nav-item  menu-btn"><a href="#" class="nav-link"  onclick="openModal('popup-register');">REGISTAR</a></li>
 
                 
                                         
@@ -366,11 +366,91 @@
 
         </footer>
 
+        <div class="modal fade" id="popup-newsletter" tabindex="-1" role="dialog" aria-labelledby="popup-newsletter" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-body  bg-yellowgreen">
+                    <p class="coop-modal-close" onclick="closeModal('popup-newsletter')">X</p>
+
+                <div class="row px-3">
+ 
+                        <div class="col-md-5">
+                                <img style="max-width:200px; margin-top:-10px;" src="assets/icons/4_mundocomcoracao.png">
+                        </div>
+                        <div class="col-md-7">
+                            <h3>Junte-se a nós!</h3>
+                            <p>Saiba todas as novidades num só lugar.</p>
+                        </div>
+
+                </div>
+                <div class="row p-3">
+                    <div class="col">
+                        <input type="text" placeholder="Insira o seu email" style="width:98%;padding:14px 20px; border-radius: 25px;border:none;">
+                        <button type="button" class="coop-btn  text-center hover-right" style="position: absolute; right: 35px;bottom: 36px;">Enviar</button>
+                    </div>
+                    
+
+                </div>
+                </div>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="popup-login" tabindex="-1" role="dialog" aria-labelledby="popup-login" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-body  bg-yellowgreen">
+                    <p class="coop-modal-close" onclick="closeModal('popup-login')">X</p>
+
+                <div class="row px-3">
+ 
+                        <img style="max-width:400px; margin-top:-10px;" src="assets/logo-h.png" class="my-3">
+
+                </div>
+                <div class="row p-3">
+                    <div class="col">
+                        <input type="text" placeholder="Insira o seu email" style="width:98%;padding:14px 20px; border-radius: 25px;border:none;" class="my-3">
+                        <input type="password" placeholder="Insira a sua password" style="width:98%;padding:14px 20px; border-radius: 25px;border:none;">
+                        <button type="button" class="coop-btn  text-center hover-right" style="position: absolute; right: 35px;bottom: 36px;">Entrar</button>
+                    </div>
+                </div>
+                </div>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="popup-register" tabindex="-1" role="dialog" aria-labelledby="popup-register" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-body  bg-yellowgreen">
+                    <p class="coop-modal-close" onclick="closeModal('popup-register')">X</p>
+
+                <div class="row px-3">
+ 
+                        <img style="max-width:400px; margin-top:-10px;" src="assets/logo-h.png" class="my-3">
+
+                </div>
+                <div class="row p-3">
+                    <div class="col">
+                        <input type="text" placeholder="Insira o seu email" style="width:98%;padding:14px 20px; border-radius: 25px;border:none;" class="mb-3">
+                        <input type="password" placeholder="Insira a sua password" style="width:98%;padding:14px 20px; border-radius: 25px;border:none;" class="mb-3">
+                        <input type="password" placeholder="Repita a sua password" style="width:98%;padding:14px 20px; border-radius: 25px;border:none;">
+                        <button type="button" class="coop-btn  text-center hover-right" style="position: absolute; right: 45px;bottom: 36px;">Registar</button>
+                    </div>
+                </div>
+                </div>
+             
+              </div>
+            </div>
+          </div>
+
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
         <!-- Funcoes JS-->
         <script src="js/scripts.js"></script>
-        
+       
     </body>
 </html>

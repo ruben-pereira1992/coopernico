@@ -27,3 +27,10 @@ function openMobile(){
 
 
 
+function openModal( name){
+    $('#'+name).modal("show");
+}
+
+function closeModal( name){
+    $('#'+name).modal("hide");
+}
