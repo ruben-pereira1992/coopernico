@@ -104,9 +104,9 @@ a:active {
     font-size:1.33rem;
 }
 .big-font{
-    font-size: 6.5rem;
-    line-height: 5rem;
-    letter-spacing: 0.5rem;
+    font-size: calc(4.5vw + 50px);
+    line-height: 6vw;
+    letter-spacing: 0.5vw;
 }
 .menu-btn-alt{
     border-radius: 50px;
