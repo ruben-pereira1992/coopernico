@@ -21,11 +21,11 @@
         <div id="menu-mobile" class="position-absolute">
             <h2>Menu Mobile</h2>
         </div>
-        <header>
+        <header  >
             <div class="container">
                 <div class="row ">
                         <div class="col-md-4">
-                            <a class="navbar-brand" href="#"><img src="assets/LOGOTIPO-HORIZONTAL-SITE(500).png" alt="LOGO" id="menu-logo"></a>
+                            <a class="navbar-brand" href="/"><img src="assets/LOGOTIPO-HORIZONTAL-SITE(500).png" alt="LOGO" id="menu-logo"></a>
                         </div>
                         <div class="col-md-8 align-items-center">
                             <!-- Menu Superior-->
@@ -54,7 +54,7 @@
                                                 <a href="#">Equipa</a>
                                             </div>
                                         </li>
-                                        <li class="nav-item"><a href="#" class="nav-link">Contratar</a>
+                                        <li class="nav-item "><a href="#" class="nav-link active">Contratar</a>
                                             <div class="dropdown-content">
                                                 <a href="#">Aderir</a>
                                                 <a href="#">Tarifários</a>
@@ -102,224 +102,80 @@
 
         <!-- Conteudo -->
         <div class="min-vh-100" id="main-content">
-                  <div class="d-flex align-items-end justify-content-center " id="main-slide">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 ">
-                                <h2 class="text-white px-3" style="letter-spacing: 0.33rem;font-size: 2.5rem;">A SUA COOPERATIVA DE <br><span class="lightyellow-text big-font" >ENERGIA</span></h2>
-                                <p class="text-white px-3">Faça parte da primeira cooperativa de energias renováveis em portugal a comercializar electricidade para todo o país.</p>
-                                <div class="mt-3 mb-3"></div>
+            <div class="mt-5 mb-5" ></div>
 
-                                <!-- <div style="text-align: left;margin-left:20px;">
-                                    <button type="button" class="coop-btn-alt  text-center ">Participe</button>
-                                    <button type="button" class="coop-btn-alt  text-center ">Contrate</button>
-                                    <button type="button" class="coop-btn-alt  text-center ">Invista</button>
-                                </div> -->
-                             </div>
-                            <div class="col-6"></div>
-                        </div>
-                        <div class="mt-5 mb-5"></div>
-                </div>
-            </div>
             <div class="bg-yellowgreen">
+
                 <div class="container">
-                    <!-- <h3 class="section-label text-white">Envolvimento</h3> -->
+
+                    <h1 class="section-label text-white">Como contratar</h1>
+
+                    <div class="row">
+
+                        <div >
+                        <h3>Não pensa muito na eletricidade que consome todos os dias, pois não? </h3>
+                        <p>Com a Coopérnico também não é preciso pensar muito, apenas saber que se contratar a nossa eletricidade:</p>
+                        <ul class="arrow-list">
+                            <li>Passa a ser dono da sua empresa de energia;</li>
+                                <li>Está a pagar um preço justo, transparente e sem fins lucrativos;</li>
+                                <li>Está a comprar energia 100% verde;</li>
+                                <li>Contribui para um movimento que está a acelerar a transição energética apostando na sustentabilidade ambiental e social.
+                                </li>
+                        </ul>
+                        <h3>Só tem uma fatura de energia por mês, use-a bem!
+                        </h3>
+
+                    </div>
+                    </div>
                     <div class="row pb-5 pt-5">
-                        <div class="col-md  mb-3" style=" margin-top: -120px">
+                        <div class="col-md  mb-3">
                                 <div class="coop-card display-flex">
                                     <div>
-                                        <h3 class="coop-card-title">Participe</h3>
-                                        <p class="coop-card-description">
-                                            Os <span class="lightgreen-text">cidadãos</span> são a base de todas as cooperativas de energia renovável. Adira à Coopérnico e junte-se aos milhares de cidadãos que já constroem connosco um modelo energético mais justo, democrático e renovável. 
-                                        </p>
+                                        <h3 class="coop-card-title">Inicie sessão ou registe-se</h3>
+                                        <p class="coop-card-description">Não lhe pedimos mais do que 5 minutos para este processo.</p>
                                     </div>
-                                    <button type="button" class="coop-btn  text-center ">Quero Participar</button>
+                                    <button type="button" class="coop-btn  text-center " onclick="openModal('popup-register');">Registar</button>
                                     <img class="coop-card-icon" src="assets/icons/1_folha.png">
                                 </div>
                             </div>
                             <div class="mt-5 mb-5 d-lg-none"></div>
 
-                        <div class="col-md display-flex  mb-3" style=" margin-top: -120px">
+                        <div class="col-md display-flex  mb-3">
                                 <div class="coop-card">
                                     <div>
-                                        <h3 class="coop-card-title">Contrate</h3>
-                                        <p class="coop-card-description">Os nossos tarifários são justos, transparentes e <span class="lightgreen-text">100% renováveis</span> para particulares e empresas. Contrate a sua fatura de eletricidade com a Coopérnico – a única empresa do setor energético sem fins lucrativos de abrangência nacional – <span class="lightgreen-text">e seja também dono da sua empresa de energia.</span></p>
+                                        <h3 class="coop-card-title">Escolher um tarifário</h3>
+                                        <p class="coop-card-description">Os nossos tarifários são justos, transparentes e <span class="lightgreen-text">100% renováveis</span> para particulares e empresas.</span></p>
                                     </div>
-                                    <button type="button" class="coop-btn  text-center ">Quero Aderir</button>
+                                    <button type="button" class="coop-btn  text-center ">Escolher</button>
                                     <img class="coop-card-icon" src="assets/icons/5_lampada.png">
                                 </div>
                             </div>
                             <div class="mt-5 mb-5 d-lg-none"></div>
 
-                        <div class="col-md display-flex  mb-3" style=" margin-top: -120px">
+                        <div class="col-md display-flex  mb-3">
                             <div class="coop-card">
                                 <div>
-                                    <h3 class="coop-card-title">Invista</h3>
-                                    <p class="coop-card-description">Os cooperantes têm a opção de rentabilizar as suas poupanças nos nossos investimentos coletivos, que têm contribuído para a democratização do investimento em energias renováveis. O modelo da Coopérnico permite que entidades sem fins lucrativos, cidadãos e empresas      produzam a sua própria energia renovável sem a necessidade de assegurar o investimento inicial.
+                                    <h3 class="coop-card-title">Preencha o formulário</h3>
+                                    <p class="coop-card-description">Faça parte da Coopérnico e comece já hoje a fazer por um mundo melhor.
                                     </p>
                                 </div>
-                                <button type="button" class="coop-btn  text-center ">Quero Investir</button>
+                                <button type="button" class="coop-btn  text-center ">Preencher</button>
                                 <img class="coop-card-icon" src="assets/icons/2_mundocomsetas.png"> 
                             </div>
                         </div>
                         <div class="mt-5 mb-5 d-lg-none" ></div>
                     </div>
+
+
                 </div>
             </div>
-            <div class="bg-newgreen">
-                <div class="container">
-                    <div class="row p-3">
-                        <div class="col-md-1"></div>
-                            <div class="col-md text-center p-4 counter">
-                                <p class="text-white">2177</p>
-                            <span class="underline"></span>
-                            <h3>Já somos</h3>
-                        </div> 
-                        <div class="col-md text-center  p-4 counter">
-                            <p class="text-white">1.83M €</p>
-                            <span class="underline"></span>
-                            <h3>investimento</h3>
+            <div class="container">
+                <h1 class="section-label text-white">Nós tratamos do resto! :)</h1>
 
-                        </div> 
-                        <div class="col-md text-center  p-4 counter">
-                            <p class="text-white">1748</p>   
-                            <span class="underline"></span>
-                            <h3>Contratos</h3>
-                         </div>               
-                    </div>
-                </div>
-            </div>
-<!--             <div class="mt-5 mb-5"></div>
-            <div class="">
-                <div class="container">
-                    <h3 class="section-label text-white">Quem Somos</h3>
-                    <div class="row pb-5 reverse-mobile">
-                        <div class="col-md align-self-center">
-                            <p class="coop-card-description ">A <span class="bold-text">Coopérnico</span> foi fundada por um grupo de 16 cidadãos vindos
-                             de diferentes áreas profissionais e com diferentes backgrounds,
-                             mas que partilham uma preocupação comum: <br>
-                             o desenvolvimento sustentável!</p>
-                                <br>
-                             <p  class="coop-card-description ">Desde então, muitos mais cidadãos se juntaram à Coopérnico
-                             e participam nas nossas atividades e na gestão da cooperativa.</p>
-                                <br>
-                             <p  class="coop-card-description ">Conheça a composição atual dos<br>
-                             <span class="bold-text">Órgãos Sociais</span> e os <span class="bold-text">Estatutos da Coopérnico</span>
-                             </p>
-                             <button type="button" class="coop-btn  text-center ">Saiba Mais</button><br>
-                         </div>       
-                        <div class="col-md  align-self-center py-3">
-                           <img src="assets/img/quem-somos.jpg" alt="" class=" img-radius">
-                        </div>                    
-                    </div>
-                </div>
-            </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>Precisa de ajuda? Contacte-nos através do e-mail coopernico@coopernico.org ou do número 969 806 229.</h2>
 
-            <div class="mt-5 mb-5"></div>
-            <div class="bg-yellowgreen">
-                <div class="container">
-                    <h3 class="section-label text-white">O Que Fazemos</h3>
-                    <div class="row pb-5">
-                        <div class="col-md align-self-center py-3">
-                           <img src="assets/img/o que fazemos.jpg" alt="" class=" img-radius">
-                        </div> 
-                        <div class="col-md   align-self-center">
-                            <p  class="coop-card-description ">A <span class="bold-text">Coopérnico</span> A Coopérnico é uma cooperativa de energias 
-                                renováveis, que alia à sua natureza social o apoio a projetos de solidariedade, educacionais ou de proteção ambiental.
-                             </p>
-                             <div class="row">
-                                <div class="col-md">
-                                    <p>
-                                        1 - Criamos uma grande comunidade de cidadãos e empresas com vontade de contribuir para um novo modelo energético, social e empresarial
-                                    </p>
-                                </div>
-                                <div class="col-md">
-                                    <p>                                    
-                                        2 - A eletricidade que produzimos é integrada na rede elétrica e serve para abastecer famílias e negócios
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md">
-                                    <p>
-                                        3 - Juntámos parte das nossas poupanças em investimentos em pequenos projetos de energias renováveis em que cada um pode ser dono da parte que que desejar
-                                    </p>
-                                </div>
-                                <div class="col-md">
-                                    <p>4 - Os nossos projetos geram benefícios económicos, com a venda da eletricidade produzida, e ambientais, com a produção de eletricidade limpa (sem emissões de dióxido de carbono e outros poluentes)</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md">
-                                    <p>5 - Distribuímos os benefícios gerados entre a sociedade, os investidores e o meio ambiente.</p>
-                                </div>
-                            </div>
-                             <button type="button" class="coop-btn  text-center ">Saiba Mais</button><br>
-                         </div>                   
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- <div class="mt-5 mb-5"></div>
-            <div class="">
-                <div class="container">
-                    <h3 class="section-label text-white">Notícias</h3>
-                    <div class="row pb-5 ">
-                       
-                        <div class="col-md news-carousel">
-                            <div class="coop-card news">
-                                <div>
-                                    <div class="overlay" style="background-image: url('assets/noticias/reduza_a_sua_fatura_de_eletricidade.jpg');">
-                                        <div class="news-date"><p>26/06/2021</p></div>
-                                    </div>
-                                    <p class="coop-card-description">Reduza a sua fatura de electricidade.</p>
-                                </div>
-                                <button type="button" class="coop-btn  text-center ">Ler Mais</button>
-                            </div>
-                            <div class="coop-card news">
-                                <div>
-                                    <div class="overlay" style="background-image: url('assets/noticias/miio.jpg');">
-                                        <div class="news-date"><p>26/06/2021</p></div>
-                                    </div>
-                                    <p class="coop-card-description">Nova parceria com A MIIO.</p>
-                                </div>
-                                <button type="button" class="coop-btn  text-center ">Ler Mais</button>
-                            </div>
-                            <div class="coop-card news">
-                                <div>
-                                    <div class="overlay" style="background-image: url('assets/noticias/enforce_VE.jpg');">
-                                        <div class="news-date"><p>26/06/2021</p></div>
-                                    </div>
-                                    <p class="coop-card-description">Nova parceria com a Enforce.</p>
-                                </div>
-                                <button type="button" class="coop-btn  text-center ">Ler Mais</button>
-                            </div>
-                            <div class="coop-card news">
-                                <div>
-                                    <div class="overlay" style="background-image: url('assets/noticias/Cartaz_21_Junho_21-01_\(1\).jpg');">
-                                        <div class="news-date"><p>26/06/2021</p></div>
-                                    </div>
-                                    <p class="coop-card-description">Novo cartaz de Junho.</p>
-                                </div>
-                                <button type="button" class="coop-btn  text-center ">Ler Mais</button>
-                            </div>
-                            
-                            <div class="coop-card news">
-                                <div>
-                                    <p class="coop-card-title darkgreen-text p-3">Descubra o que já foi feito.</p>
-                                </div>
-                                <button type="button" class="coop-btn  text-center ">Saiba Mais</button>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="bg-yellowgreen">
-                <div class="container">
-                    <div class="row">
-                        <h2 >PARCEIROS</h2>
                     </div>
                 </div>
             </div>
@@ -374,7 +230,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md">
-                        <img src="assets/LOGOTIPO-HORIZONTAL-SITE(500branco).png" alt="Logo Horizontal" style="max-width:100%; width:450px" class="mt-4">
+                        <a href="/"><img src="assets/LOGOTIPO-HORIZONTAL-SITE(500branco).png" alt="Logo Horizontal" style="max-width:100%; width:450px" class="mt-4"></a>
                     </div>
                     <div class="col-md">
                         <ul class="inline-list d-flex justify-content-end">
@@ -449,6 +305,7 @@
           </div>
 
           <div class="modal fade" id="popup-register" tabindex="-1" role="dialog" aria-labelledby="popup-register" aria-hidden="true">
+            
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-body  bg-yellowgreen">

@@ -640,3 +640,24 @@ nav .social{
     .hover-right:hover{
         transform: translateX(10px);
     }
+
+
+    ul {
+        position: relative;
+        list-style: none;
+        margin-left:20px;
+      }
+      
+      .arrow-list li::before {
+        content: '🠚';
+        position: absolute;
+        left: 0;
+      }
+
+      .arrow-list li{
+        margin-left:-5px;
+      }
+
+a.active{
+    color:var(--lightgreen) !important;
+}
