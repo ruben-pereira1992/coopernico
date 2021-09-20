@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Coopérnico</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- CSS (inclui Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/responsive.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+
+    </head>
+    <body>
+        <!-- Menu-->
+        <header>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-4">
+                        <a class="navbar-brand" href="#"><img src="assets/LOGOTIPO-HORIZONTAL-SITE(500).png" alt="LOGO" id="menu-logo"></a>
+                    </div>
+                    <div class="col-md-8 align-items-center">
+                        <!-- Menu Superior-->
+                        <nav class="navbar  navbar-expand-lg justify-content-end container" id="mainheader">
+                            <i class="fa fa-ellipsis-v d-lg-none" id="mobile-menu-icon"></i>
+                            <div class="d-none d-lg-block">
+                                <ul class="navbar-nav align-items-center">
+                                    <li class="nav-item" onclick="openModal('popup-newsletter');"><a href="#" class="nav-link" data-toggle="modal" data-target="#popup-newsletter">SUBSCREVER NEWSLETTER</a></li>
+                                    <li class="nav-item px-2">|</li>
+                                    <li class="nav-item menu-btn-alt"  onclick="openModal('popup-login');"><a href="#" class="nav-link">LOGIN</a></li>
+                                    <li class="nav-item  menu-btn"><a href="#" class="nav-link"  onclick="openModal('popup-register');">REGISTAR</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div id="popup-lamp">
+            <div id="popup-lamp-btn1"></div>
+            <div id="popup-lamp-btn2"></div>
+        </div>
+
+        <!-- Conteudo -->
+        <div class="min-vh-100" id="main-content">
+            <div class="section">
+                <div class="row" style="min-height: 33vh;">
+
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <div class="slider">
+                            <div>SLIDE 1</div>
+                            <div>SLIDE 2</div>
+                            <div>SLIDE 3</div>
+                            <div>SLIDE 4</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rodape -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <h4>DESTAQUES</h4>         
+                        <a><i class="fas fa-user-friends"></i><p>Torne-se Membro</p></a>
+                        <a><i class="fas fa-user-friends"></i><p>Contrate Electricidade</p></a>
+                        <a><i class="fas fa-user-friends"></i><p>Gerir dados pessoais</p></a>
+                        <a><i class="fas fa-user-friends"></i><p>Gestão de contratos e faturas</p></a>      
+                    </div>
+                    <div class="col-md">
+                        <h4>DESTAQUES</h4>         
+                        <a><i class="fas fa-user-friends"></i><p>Torne-se Membro</p></a>
+                        <a><i class="fas fa-user-friends"></i><p>Contrate Electricidade</p></a>
+                        <a><i class="fas fa-user-friends"></i><p>Gerir dados pessoais</p></a>
+                        <a><i class="fas fa-user-friends"></i><p>Gestão de contratos e faturas</p></a>               
+                    </div>
+                    <div class="col-md">
+                        <h4>CONTACTO</h4>
+                        <p>Rua de São Nicolau 73, 2 Esq
+                            <br>1100-548 Lisboa<br>
+                            Portugal<br>
+                            (+351) 213 461 803<br>
+                            (+351) 969 806 229<br>
+                            coopernico@coopernico.org</p>
+                    </div>
+                    <div class="col-md">
+                        <h4>QUERO RECEBER NOTÍCIAS</h4>
+                        <div class="mt-3 mb-3"></div>
+                        <form action="/subscrever" class="newsletter-form" target="_blank">
+                            <input type="email" name="EMAIL" id="email" class="form-input" placeholder="Introduza o seu email">
+                            <button type="submit" class="coop-btn">Subscrever</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="separator"></div>
+                <div class="row">
+                    <div class="inline-list d-flex justify-content-between flex-wrap">
+                        <a>Novas Oportunidades</a>
+                        <a>Imprensa</a>
+                        <a>Documentos</a>
+                        <a>Política de Privacidade</a>
+                        <a>Política de Cookies</a>
+                        <a>Livro de Reclamações</a></li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <a href="#"><img src="assets/LOGOTIPO-HORIZONTAL-SITE(500branco).png" alt="Logo Horizontal" style="max-width:100%; width:450px" class="mt-4"></a>
+                    </div>
+                    <div class="col-md">
+                        <ul class="inline-list d-flex justify-content-end">
+                            <i class="fa fa-facebook mt-3" style="font-size:20px;margin-left:50px;"></i>
+                            <i class="fa fa-instagram mt-3" style="font-size:20px;margin-left:50px;"></i>
+                            <i class="fa fa-twitter mt-3" style="font-size:20px;margin-left:50px;"></i>
+                            <i class="fa fa-youtube mt-3" style="font-size:20px;margin-left:50px;"></i>
+                        </ul>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="row">
+                        <p align=right>H2020 - P2020 - Gulbenkian - EA Grants</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <!-- Slick (Carrossel)-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <!-- Funcoes JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+            window.onload = function() {
+                $('.slider').slick({
+                    infinite: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 4
+                    });
+            };
+        </script>
+    </body>
+</html>
