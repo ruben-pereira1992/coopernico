@@ -200,10 +200,6 @@ img {
   border-color: #e4e4e4;
 }
 
-* {
-  font-family: roboto;
-}
-
 .faqHeader {
   font-size: 27px;
   margin: 20px;
@@ -729,6 +725,7 @@ img {
 }
 
 html {
+  background-color: white;
   font-size: 18px;
   font-family: 'Conv_thin', sans-serif;
 }
@@ -796,23 +793,24 @@ a:active {
 .menu-btn-alt {
   color: var(--darkgreen);
   border-radius: 50px;
-  padding: 0px 5px;
+  padding: 5px 8px;
 }
 
 .menu-btn-alt:hover {
   background-color: var(--newgreen);
-  padding: 0px 5px;
+  padding: 5px 8px;
 }
 
 .menu-btn-alt:hover + .menu-btn {
   background-color: white;
+  color: var(--darkgreen) !important;
 }
 
 .menu-btn {
   color: var(--darkgreen);
   background-color: var(--newgreen);
   border-radius: 25px;
-  padding: 0px 5px;
+  padding: 5px 8px;
 }
 
 #menu-logo {
@@ -830,7 +828,7 @@ a:active {
   color: var(--darkgreen);
 }
 
-#secondaryheader {
+header a {
   font-family: 'Conv_main-font', sans-serif;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -850,6 +848,11 @@ a:active {
   padding: 0.5rem;
   z-index: 9999;
   border-radius: 0 0 10px 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
 }
 
 .nav-item:hover .dropdown-content {
@@ -927,6 +930,9 @@ footer input {
   background-color: aliceblue;
   height: 100%;
   left: -100%;
+  position: absolute;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 .carousel-item {
@@ -1053,7 +1059,7 @@ footer button {
   width: 100px;
   height: 100px;
   z-index: 10;
-  background-image: url("../assets/icons/icon_balao.png");
+  background-image: url("/assets/img/Icons/icon_balao.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 2px;
@@ -1068,7 +1074,7 @@ footer button {
   width: 60px;
   height: 60px;
   z-index: 10;
-  background-image: url("../assets/icons/5_lampada.png");
+  background-image: url("/assets/img/Icons/5_lampada.png");
   background-size: contain;
   background-position-x: 2px;
   border-radius: 100%;
@@ -1086,7 +1092,7 @@ footer button {
   width: 60px;
   height: 60px;
   z-index: 10;
-  background-image: url("../assets/icons/5_lampada.png");
+  background-image: url("/assets/img/Icons/5_lampada.png");
   background-size: contain;
   background-position-x: 2px;
   border-radius: 100%;
@@ -1162,7 +1168,6 @@ footer button {
   margin-bottom: 20px;
   box-shadow: 1px 1px 5px #2c615047;
   position: relative;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1295,10 +1300,6 @@ nav .social {
   }
 }
 
-html {
-  font-family: "Dom";
-}
-
 #client-container {
   min-height: 100vh;
 }
@@ -1314,6 +1315,7 @@ html {
 
 .modal .modal-content, .modal .modal-body {
   border-radius: 25px;
+  background-color: var(--darkgreen);
 }
 
 .coop-modal-close {
@@ -1364,5 +1366,72 @@ a.active {
 
 .parceiros img {
   max-width: 150px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1055;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+div {
+}
+
+div {
+}
+
+div {
+}
+
+body {
+  /*margin: 0;*/
+  font-family: "Conv_main-font";
+  font-size: 18px;
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.modal-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: none;
+  border-top-left-radius: calc(.3rem - 1px);
+  border-top-right-radius: calc(.3rem - 1px);
+}
+
+.modal-footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: .75rem;
+  border-top: none;
+  border-bottom-right-radius: calc(.3rem - 1px);
+  border-bottom-left-radius: calc(.3rem - 1px);
 }
 
