@@ -42,18 +42,6 @@
   margin-bottom: 15px;
 }
 
-.accordion__header {
-  padding: 20px;
-  padding-right: 50px;
-  font-weight: 600;
-  font-size: 1.25rem;
-  color: #094067;
-  position: relative;
-  cursor: pointer;
-  background-color: var(--newgreen);
-  border-radius: 50px;
-}
-
 .accordion__header::after {
   content: '';
   display: block;
@@ -67,16 +55,6 @@
   background: url("https://cdn.statically.io/gist/koptyaisky/33f5da3d9e6b6cacdf5a353ad033c2ea/raw/c8468a17e0141ee82a2571deea1f76162abb47b6/arrow-down-blue.svg") no-repeat center;
   background-size: contain;
   transition: all .4s ease;
-}
-
-.accordion__body {
-  padding: 0 40px 20px 20px;
-  font-weight: 300;
-  /*font-size: 0.875rem;*/
-  color: #323232;
-  line-height: 1.5;
-  display: none;
-  border-radius: 50px !important;
 }
 
 .open-accordion .accordion__body {
@@ -739,6 +717,10 @@ body {
   text-align: center;
   border-radius: 50%;
   line-height: 60px;
+}
+
+* {
+  margin: 0;
 }
 
 * {
@@ -1449,7 +1431,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-white);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -1525,6 +1507,8 @@ body {
 
 .card-list {
   margin: 0;
+  width: 100%;
+  padding-left: 0;
 }
 
 .btn-primary:hover {
@@ -1576,5 +1560,27 @@ body {
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
   box-shadow: none;
+}
+
+.accordion__header {
+  padding: 10px 20px;
+  padding-right: 50px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #094067;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--newgreen);
+  border-radius: 50px;
+}
+
+.accordion__body {
+  padding: 0 20px 20px 20px;
+  font-weight: 300;
+  /*font-size: 0.875rem;*/
+  color: #323232;
+  line-height: 1.5;
+  display: none;
+  border-radius: 50px !important;
 }
 
