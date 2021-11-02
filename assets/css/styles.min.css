@@ -1384,6 +1384,7 @@ footer button {
   font-family: "Conv_thin";
   color: var(--darkgreen);
   font-weight: 600;
+  font-size: 1.0rem;
 }
 
 .coop-card p, .coop-card-title {
@@ -1625,10 +1626,33 @@ body {
   transition: 0.5s;
 }
 
+@media (max-width: 300px) {
+  .card-list li {
+    display: inline-block;
+    min-width: 100% !important;
+    margin: 1% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-list li {
+    display: inline-block;
+    min-width: 98% !important;
+    margin: 1% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-list li {
+    width: 30%;
+    margin: 1%;
+  }
+}
+
 .card-list li {
   display: inline-block;
-  width: 30%;
-  margin: 1%;
+  min-width: 23%;
+  margin-right: 2%;
 }
 
 .card-list {
@@ -1713,6 +1737,24 @@ body {
 @media (max-width: 768px) {
   .card-list.news li {
     width: 100%;
+  }
+}
+
+.rounded-background {
+  font-family: Conv_main-font;
+  color: var(--darkgreen);
+  width: 80%;
+  background: var(--lightgreen);
+  padding: 10px;
+  padding-right: 20px;
+  line-height: 25px;
+  border-radius: 25px;
+  padding-left: 20px;
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 80%;
   }
 }
 
