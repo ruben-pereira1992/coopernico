@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://www.coopernico.t4hd.org/clientes/participar/assembleia-geral.html</loc>
+        <loc>https://www.coopernico.t4hd.org/clientes/contratar/consumos-leituras.html</loc>
+    </url>
+    <url>
+        <loc>https://www.coopernico.t4hd.org/clientes/contratar/dados-contrato.html</loc>
+    </url>
+    <url>
+        <loc>https://www.coopernico.t4hd.org/clientes/contratar/dados-locais.html</loc>
+    </url>
+    <url>
+        <loc>https://www.coopernico.t4hd.org/clientes/contratar/faturacao.html</loc>
+    </url>
+    <url>
+        <loc>https://www.coopernico.t4hd.org/clientes/investir/movimentos-transacoes.html</loc>
+    </url>
+    <url>
+        <loc>https://www.coopernico.t4hd.org/clientes/participar/assembleias_gerais.html</loc>
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/clientes/participar/calendario.html</loc>
     </url>
     <url>
-        <loc>https://www.coopernico.t4hd.org/clientes/participar/grupos-de-trabalho.html</loc>
+        <loc>https://www.coopernico.t4hd.org/clientes/participar/grupos-locais.html</loc>
     </url>
     <url>
-        <loc>https://www.coopernico.t4hd.org/clientes/participar/grupos-locais.html</loc>
+        <loc>https://www.coopernico.t4hd.org/clientes/participar/grupos-trabalho.html</loc>
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/clientes/participar/parcerias.html</loc>
@@ -20,9 +35,6 @@
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/clientes/inicio.html</loc>
-    </url>
-    <url>
-        <loc>https://www.coopernico.t4hd.org/clientes/projetos.html</loc>
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/contratar.html</loc>
@@ -41,6 +53,9 @@
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/parceiros.html</loc>
+    </url>
+    <url>
+        <loc>https://www.coopernico.t4hd.org/poupa-wats.html</loc>
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/sobrenos.html</loc>

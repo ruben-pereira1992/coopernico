@@ -101,6 +101,10 @@
   transition: all 0.3s;
 }
 
+.main-font-thin {
+  font-family: 'Conv_thin';
+}
+
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
@@ -267,6 +271,92 @@ hr {
 
 .text-150 {
   font-size: 150%!important;
+}
+
+.contact-clean {
+  background: #f1f7fc;
+  padding: 80px 0;
+}
+
+@media (max-width:767px) {
+  .contact-clean {
+    padding: 20px 0;
+  }
+}
+
+.contact-clean form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width:767px) {
+  .contact-clean form {
+    padding: 30px;
+  }
+}
+
+.contact-clean h2 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 36px;
+  color: inherit;
+}
+
+.contact-clean form .form-control {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+  outline: none;
+  color: inherit;
+  padding-left: 12px;
+  height: 42px;
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2;
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px;
+  max-height: 260px;
+  padding-top: 10px;
+  resize: vertical;
+}
+
+.contact-clean form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: none !important;
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1;
+}
+
+.contact-clean form .btn:active {
+  transform: translateY(1px);
+}
+
+.contact-clean form .btn-primary {
+  background-color: #055ada !important;
+  margin-top: 15px;
+  color: #fff;
 }
 
 .faq {
@@ -783,10 +873,6 @@ body {
   opacity: 1;
 }
 
-* {
-  margin: 0;
-}
-
 .frame {
   height: 200px;
   width: 200px;
@@ -838,15 +924,7 @@ body {
 }
 
 * {
-  margin: 0;
-}
-
-* {
   font-family: roboto;
-}
-
-* {
-  margin: 0;
 }
 
 * {
@@ -1142,8 +1220,9 @@ footer input {
   color: var(--darkgreen);
   font-family: "Conv_main-font";
   text-align: center;
-  font-size: 1.33rem;
+  font-size: 1rem;
   letter-spacing: 1px;
+  margin: 10px;
 }
 
 .coop-btn-alt {
@@ -1198,7 +1277,7 @@ footer button {
   border-radius: 50px;
   width: max-content;
   letter-spacing: 3px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .bg-lightgreen {
@@ -1651,8 +1730,8 @@ body {
 
 .card-list li {
   display: inline-block;
-  min-width: 23%;
-  margin-right: 2%;
+  margin-right: 1%;
+  max-width: 100%;
 }
 
 .card-list {
@@ -1756,5 +1835,132 @@ body {
   html {
     font-size: 80%;
   }
+}
+
+.card-list.4cards li {
+  max-width: 23%;
+}
+
+.info-bg {
+}
+
+.info-bg-2 {
+  font-family: Conv_main-font;
+  color: var(--newgreen);
+  width: 80%;
+  padding: 10px;
+  padding-right: 20px;
+  line-height: 25px;
+  background: var(--lightgreen);
+  border-radius: 25px;
+  padding-left: 20px;
+  margin-left: 20%;
+}
+
+.info-bg-1 {
+  font-family: Conv_main-font;
+  color: var(--darkgreen);
+  width: 80%;
+  padding: 10px;
+  padding-right: 20px;
+  line-height: 25px;
+  background: var(--lightgreen);
+  border-radius: 25px;
+  padding-left: 20px;
+}
+
+.darkgreen-text {
+  color: var(--darkgreen);
+}
+
+.info-bg.newgreen-text {
+  color: var(--newgreen);
+}
+
+newgreen-text {
+  color: var(--newgreen);
+}
+
+.newgreen-text {
+  color: var(--newgreen);
+}
+
+.darkgreen-text {
+  color: var(--darkgreen);
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 25px;
+}
+
+.horizontal-card {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.horizontal-card .card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-list-4 ul {
+  width: 25%;
+}
+
+.card-list-4 li {
+  width: 23%;
+}
+
+.card-list-2 li {
+  width: 48%;
+}
+
+.card-list-3 li {
+  WIDTH: 31%;
+  margin: 10px;
+}
+
+#content-wrapper {
+  background: var(--yellowgreen);
+}
+
+.coop-card-subtitle {
+  font-family: Conv_main-font;
+  font-weight: 700;
+  color: var(--darkgreen);
+  margin-bottom: 8px;
+  margin-top: 22px;
+  border-color: var(--darkgreen);
+}
+
+select {
+  border-radius: 25px;
+  background-color: var(--lightgreen);
+  font-family: 'Conv_thin';
+  font-size: 1.4rem;
+}
+
+#upload-file {
+  background-color: var(--newgreen) !important;
+  background-clip: padding-box !important;
+}
+
+.card-list-4 ul {
+  width: 23%;
+}
+
+.card-list-4 ul {
+  width: 23%;
+  margin: 10px;
 }
 
