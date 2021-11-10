@@ -1855,6 +1855,7 @@ body {
   border-radius: 25px;
   padding-left: 20px;
   margin-left: 20%;
+  /*text-shadow: #fffffe;*/
 }
 
 .info-bg-1 {
@@ -1926,7 +1927,7 @@ newgreen-text {
 }
 
 .card-list-3 li {
-  WIDTH: 31%;
+  WIDTH: 30%;
   margin: 10px;
 }
 
