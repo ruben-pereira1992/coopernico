@@ -105,6 +105,10 @@
   font-family: 'Conv_thin';
 }
 
+.actual-area {
+  color: var(--lightyellow);
+}
+
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
@@ -1209,6 +1213,22 @@ footer input {
   min-height: 80vh;
 }
 
+.inverted-coop-btn {
+  border-radius: 25px;
+  background-color: var(--darkgreen);
+  /*border: 0;*/
+  font-weight: 600;
+  transition: 0.33s ease-in-out;
+  border: solid 3px var(--darkgreen);
+  padding: 1rem;
+  color: white;
+  font-family: "Conv_main-font";
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  /*margin: 10px;*/
+}
+
 .coop-btn {
   border-radius: 25px;
   background-color: var(--newgreen);
@@ -1222,7 +1242,7 @@ footer input {
   text-align: center;
   font-size: 1rem;
   letter-spacing: 1px;
-  margin: 10px;
+  /*margin: 10px;*/
 }
 
 .coop-btn-alt {
@@ -1746,12 +1766,26 @@ body {
   border-color: var(--newgreen);
 }
 
-.sidemenu-pushed {
-  transform: translateX(300px);
+#vertical-menu.sidemenu-pushed {
+  max-width: 300px !important;
+  min-height: 97vh;
+}
+
+@media (max-width: 768px) {
+  #content-wrapper {
+    /*transition: 0.5s;*/
+    padding-left: 0px !important;
+    /*padding-top: 0px;*/
+  }
 }
 
 #content-wrapper {
   transition: 0.5s;
+  padding-left: 80px;
+}
+
+#content-wrapper.sidemenu-pushed {
+  transform: translateX(300px) !important;
 }
 
 .searchbar:hover > .search_input {
@@ -1906,7 +1940,7 @@ newgreen-text {
 
 .horizontal-card {
   width: 100%;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .horizontal-card .card-body {
@@ -1929,10 +1963,6 @@ newgreen-text {
 .card-list-3 li {
   WIDTH: 30%;
   margin: 10px;
-}
-
-#content-wrapper {
-  background: var(--yellowgreen);
 }
 
 .coop-card-subtitle {
@@ -1963,5 +1993,47 @@ select {
 .card-list-4 ul {
   width: 23%;
   margin: 10px;
+}
+
+#vertical-menu {
+  background: var(--darkgreen);
+  border-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 74px;
+  overflow: hidden;
+  min-height: 96vh;
+  z-index: 999999;
+  transition: 0.5s;
+  position: fixed;
+}
+
+@media (max-width: 768px) {
+  #vertical-menu {
+    max-height: 75px;
+    min-height: 0px;
+  }
+}
+
+.sub-menu-btn-right {
+  background-color: var(--darkgreen);
+  /*opacity: 0.33;*/
+  /*font-size: 1rem;*/
+  border-radius: 0 25px 25px 0;
+  font-family: 'Conv_main-font';
+}
+
+.sub-menu-btn-left {
+  background-color: var(--darkgreen);
+  /*opacity: 0.33;*/
+  /*font-size: 1rem;*/
+  border-radius: 25px 0 0 25px;
+  font-family: 'Conv_main-font';
+}
+
+input[type='file']::-webkit-file-upload-button {
+  visibility: hidden;
+  user-select: none;
+  /*width: 100%;*/
 }
 
