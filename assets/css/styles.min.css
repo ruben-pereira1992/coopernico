@@ -2037,3 +2037,48 @@ input[type='file']::-webkit-file-upload-button {
   /*width: 100%;*/
 }
 
+.project-card-goals {
+  /*overflow-x: hidden;*/
+  width: 100%;
+  /*position: absolute;*/
+  bottom: 0;
+  /*background-color: var(--lightgreen);*/
+  border-radius: 0 0 25px 25px;
+  padding: 0px 30px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 9px;
+}
+
+.project-card-body {
+  display: flex;
+}
+
+.goals-bar {
+  /*margin-left: -25px;*/
+  /*position: absolute;*/
+  height: 25px;
+  background-color: var(--newgreen);
+  /*width: 33%;*/
+  margin-bottom: -34px;
+  margin-top: 1px;
+  /*margin: 5px;*/
+  border-radius: 0 0 20px 20px;
+}
+
+.goals-container {
+  background-color: var(--lightgreen);
+  padding: 1px 5px;
+  border-radius: 0 0 20px 20px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.change-page {
+  margin-top: 32px;
+}
+
