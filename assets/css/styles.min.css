@@ -109,6 +109,10 @@
   color: var(--lightyellow);
 }
 
+.card-list li {
+  margin-top: 20px;
+}
+
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
@@ -1779,7 +1783,7 @@ body {
   }
 }
 
-#content-wrapper {
+body.dashboard #content-wrapper {
   transition: 0.5s;
   padding-left: 80px;
 }
@@ -2080,5 +2084,17 @@ input[type='file']::-webkit-file-upload-button {
 
 .change-page {
   margin-top: 32px;
+}
+
+.main-font.dashboard-link:hover {
+  color: var(--lightyellow) !important;
+}
+
+.dashboard-link:hover {
+  color: var(--lightyellow) !important;
+}
+
+#vertical-menu a:hover {
+  color: var(--lightyellow);
 }
 
