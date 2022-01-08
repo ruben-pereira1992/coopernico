@@ -519,7 +519,7 @@ img {
 }
 
 html {
-  /*background-color: white;*/
+  background-color: var(--yellowgreen) !important;
   font-family: 'Conv_thin', sans-serif;
 }
 
@@ -1162,7 +1162,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-white);
+  background-color: var(--yellowgreen);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -1220,9 +1220,10 @@ body {
   transition: 0.5s;
   left: 0px;
   margin-left: -300px;
+  padding: 25px;
 }
 
-.sidemenu-push.sidemenu-pushed {
+.sidemenu-pushed {
   transform: translateX(300px) !important;
 }
 
@@ -1670,6 +1671,8 @@ form-check-input {
 .section-title {
   color: var(--darkgreen);
   font-weight: 900;
+  font-family: 'Conv_light';
+  text-decoration: underline;
 }
 
 .coop-card {
@@ -1862,5 +1865,24 @@ a {
   .floating {
     margin-top: 0 !important;
   }
+}
+
+#sidemenu-trigger {
+  color: var(--darkgreen);
+  font-size: 44px;
+  border-width: 0px;
+  border-radius: 0;
+}
+
+#content-wrapper {
+  transition: all 0.5s;
+}
+
+#sidemenu a {
+  color: white;
+}
+
+#sidemenu a:hover, #sidemenu h4:hover {
+  color: var(--lightyellow);
 }
 
