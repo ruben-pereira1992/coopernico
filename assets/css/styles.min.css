@@ -1906,5 +1906,14 @@ html {
   /*right: 0;*/
   height: fit-content;
   min-width: 350px;
+  transition: 1s all;
+}
+
+.info_block {
+  color: var(--darkgreen);
+}
+
+.fullscreen-map:hover ~ .card-absolute-left {
+  opacity: 0;
 }
 
