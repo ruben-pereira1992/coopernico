@@ -77,6 +77,23 @@
   border-bottom-right-radius: 100px;
 }
 
+.sidebar .nav-item .nav-link .img-profile, .topbar .nav-item .nav-link .img-profile {
+  height: 2rem;
+  width: 2rem;
+}
+
+.badge-counter {
+  background-color: var(--newgreen) !important;
+}
+
+@media (max-width: 768px) {
+  #vertical-menu {
+    margin-top: 0px !important;
+    margin-left: 3vw !important;
+    /*padding: 0;*/
+  }
+}
+
 img {
   border-radius: 5px;
 }
@@ -1536,8 +1553,9 @@ newgreen-text {
 }
 
 @media (max-width: 768px) {
-  #vertical-menu {
-    max-height: 75px;
+  #vertical-menu:not(:hover) {
+    max-height: 74px;
+    max-width: 68px;
     min-height: 0px;
   }
 }
@@ -1841,13 +1859,16 @@ a {
   transform: translateX(320px);
 }
 
-#vertical-menu:hover + #content-wrapper {
-  transform: translateX(320px);
+#vertical-menu:hover {
+  max-width: 320px;
+  min-height: 90vh;
 }
 
-#vertical-menu:hover {
-  max-width: 320px !important;
-  min-height: 90vh;
+@media (max-width: 768px) {
+  #vertical-menu:hover {
+    max-width: 85vw !important;
+    min-height: 90vh;
+  }
 }
 
 .actual-area {
@@ -1950,5 +1971,20 @@ html {
 
 .fullscreen-map:hover ~ .card-absolute-left {
   opacity: 0;
+}
+
+#sidemenu-btn {
+  font-size: 42px;
+}
+
+@media (max-width: 768px) {
+  #sidemenu-btn {
+    /*margin-top: 0px;*/
+    font-size: 34px;
+  }
+}
+
+.border-coop {
+  border-radius: 25px;
 }
 
