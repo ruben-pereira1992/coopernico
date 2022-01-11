@@ -43,22 +43,16 @@
         <loc>https://www.coopernico.t4hd.org/clientes/index.html</loc>
     </url>
     <url>
-        <loc>https://www.coopernico.t4hd.org/Contratar/tarifarios.html</loc>
-    </url>
-    <url>
-        <loc>https://www.coopernico.t4hd.org/novidades/explicadores.html</loc>
-    </url>
-    <url>
-        <loc>https://www.coopernico.t4hd.org/novidades/faq.html</loc>
-    </url>
-    <url>
-        <loc>https://www.coopernico.t4hd.org/projectos/projecto-template.html</loc>
-    </url>
-    <url>
         <loc>https://www.coopernico.t4hd.org/artigo.html</loc>
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/contratar.html</loc>
+    </url>
+    <url>
+        <loc>https://www.coopernico.t4hd.org/explicadores.html</loc>
+    </url>
+    <url>
+        <loc>https://www.coopernico.t4hd.org/faq.html</loc>
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/index.html</loc>
@@ -73,10 +67,16 @@
         <loc>https://www.coopernico.t4hd.org/parceiros.html</loc>
     </url>
     <url>
+        <loc>https://www.coopernico.t4hd.org/projecto-template.html</loc>
+    </url>
+    <url>
         <loc>https://www.coopernico.t4hd.org/registo.html</loc>
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/sobrenos.html</loc>
+    </url>
+    <url>
+        <loc>https://www.coopernico.t4hd.org/tarifarios.html</loc>
     </url>
     <url>
         <loc>https://www.coopernico.t4hd.org/torne-se-membro.html</loc>

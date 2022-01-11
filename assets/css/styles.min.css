@@ -1,25 +1,25 @@
 @font-face {
 	font-family: 'Conv_light';
-	src: url(/assets/fonts/light.eot) format('embedded-opentype'),
-	url(/assets/fonts/light.woff) format('woff'),
-	url(/assets/fonts/light.ttf) format('truetype'),
-	url(/assets/fonts/light.svg) format('svg');
+	src: url(../../assets/fonts/light.eot) format('embedded-opentype'),
+	url(../../assets/fonts/light.woff) format('woff'),
+	url(../../assets/fonts/light.ttf) format('truetype'),
+	url(../../assets/fonts/light.svg) format('svg');
 	font-weight: normal;
 	font-style: normal;
 }@font-face {
 	font-family: 'Conv_main-font';
-	src: url(/assets/fonts/main-font.eot) format('embedded-opentype'),
-	url(/assets/fonts/main-font.woff) format('woff'),
-	url(/assets/fonts/main-font.ttf) format('truetype'),
-	url(/assets/fonts/main-font.svg) format('svg');
+	src: url(../../assets/fonts/main-font.eot) format('embedded-opentype'),
+	url(../../assets/fonts/main-font.woff) format('woff'),
+	url(../../assets/fonts/main-font.ttf) format('truetype'),
+	url(../../assets/fonts/main-font.svg) format('svg');
 	font-weight: normal;
 	font-style: normal;
 }@font-face {
 	font-family: 'Conv_thin';
-	src: url(/assets/fonts/thin.eot) format('embedded-opentype'),
-	url(/assets/fonts/thin.woff) format('woff'),
-	url(/assets/fonts/thin.ttf) format('truetype'),
-	url(/assets/fonts/thin.svg) format('svg');
+	src: url(../../assets/fonts/thin.eot) format('embedded-opentype'),
+	url(../../assets/fonts/thin.woff) format('woff'),
+	url(../../assets/fonts/thin.ttf) format('truetype'),
+	url(../../assets/fonts/thin.svg) format('svg');
 	font-weight: normal;
 	font-style: normal;
 }400;600;700&display=swap'); * {
@@ -391,6 +391,41 @@ img {
   text-decoration: none;
 }
 
+.all-capital {
+  text-transform: uppercase;
+}
+
+.counter-font {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 76px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+span.plus-k::after {
+  content: 'K +';
+}
+
+span.plus::after {
+  content: '+';
+}
+
+.Justify-Flex-Center {
+  display: flex;
+  justify-content: center;
+}
+
+.font-dark {
+  color: var(--primary-color);
+}
+
+.Justify-Flex-Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .register-photo {
   background: #f1f7fc;
   padding: 80px 0;
@@ -399,7 +434,7 @@ img {
 .register-photo .image-holder {
   display: table-cell;
   width: auto;
-  background: url(/assets/img/meeting.jpg);
+  background: url(../../assets/img/meeting.jpg);
   background-size: cover;
 }
 
@@ -832,7 +867,7 @@ a:visited {
   width: 100px;
   height: 100px;
   z-index: 10;
-  background-image: url("/assets/img/Icons/icon_balao.png");
+  background-image: url("../../assets/img/Icons/icon_balao.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 2px;
@@ -847,7 +882,7 @@ a:visited {
   width: 60px;
   height: 60px;
   z-index: 10;
-  background-image: url("/assets/img/Icons/5_lampada.png");
+  background-image: url("../../assets/img/Icons/5_lampada.png");
   background-size: contain;
   background-position-x: 2px;
   border-radius: 100%;
@@ -865,7 +900,7 @@ a:visited {
   width: 60px;
   height: 60px;
   z-index: 10;
-  background-image: url("/assets/img/Icons/5_lampada.png");
+  background-image: url("../../assets/img/Icons/5_lampada.png");
   background-size: contain;
   background-position-x: 2px;
   border-radius: 100%;
