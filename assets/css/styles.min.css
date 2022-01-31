@@ -157,7 +157,7 @@
 }
 
 .badge-counter {
-  background-color: var(--newgreen) !important;
+  background-color: var(--lightyellow) !important;
 }
 
 @media (max-width: 768px) {
@@ -170,6 +170,10 @@
 
 .euro::after {
   content: " €";
+}
+
+.title-icon {
+  max-width: 60px;
 }
 
 .calendar {
@@ -1194,9 +1198,9 @@ a:visited {
 
 .form-input, .form-select {
   background-color: transparent;
-  border-radius: 50px;
+  border-radius: 20px;
   width: 100%;
-  border: solid 3px var(--newgreen) !important;
+  border: solid 2px var(--newgreen) !important;
   color: var(--newgreen);
   /*margin: 10px auto;*/
   padding: 5px 10px;
